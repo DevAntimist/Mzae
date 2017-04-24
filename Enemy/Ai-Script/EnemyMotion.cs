@@ -53,6 +53,8 @@ public class EnemyMotion : MonoBehaviour {
     public void Death()
     {
         Debug.Log("I FUCKING WIN");
+
+
         anim.SetInteger("State", 3);
         
 
@@ -87,7 +89,7 @@ public class EnemyMotion : MonoBehaviour {
         {
             var distance = this.transform.localPosition.x - playerLoc.localPosition.x;
             var yDistance = this.transform.localPosition.y - playerLoc.localPosition.y;
-            if(yDistance < 0)
+            if(yDistance < -2 || yDistance > 2)
             {
                 anim.SetInteger("State", 0);
                 distance = 0;
