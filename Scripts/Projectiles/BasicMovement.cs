@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BasicMovement : MonoBehaviour {
+   // public bool playerShot = false;
 
     public float Speed = 50;
     public int Direction = 1;

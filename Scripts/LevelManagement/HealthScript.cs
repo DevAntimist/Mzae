@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class HealthScript : MonoBehaviour {
 
-    public int health = 1;
-    public bool Player = false;
-    public bool Enemy = false;
+    public int health = 5;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -18,13 +17,12 @@ public class HealthScript : MonoBehaviour {
         if (health <= 0)
             CallDeath();
 	}
-    void SubtractHeath(int amount)
+    public void SubtractHeath(int amount)
     {
-        health -= amount;
+        health -= amount;   
     }
     void CallDeath()
     {
-        if (Enemy)
-            GameObject.Destroy(this);
+        //Code to reset the level, or display the score
     }
 }

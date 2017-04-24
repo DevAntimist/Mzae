@@ -79,7 +79,7 @@ public class EnemyMotion : MonoBehaviour {
         //determine if the projectile must go in the opposite direction
         if (left)
         {
-            GetComponent<ProjectTileMotion>().left = left; 
+            clone.GetComponent<ProjectTileMotion>().left = left; 
         }
     }
         
@@ -89,7 +89,7 @@ public class EnemyMotion : MonoBehaviour {
         {
             var distance = this.transform.localPosition.x - playerLoc.localPosition.x;
             var yDistance = this.transform.localPosition.y - playerLoc.localPosition.y;
-            if(yDistance < -2 || yDistance > 2)
+            if(yDistance < -4 || yDistance > 4)
             {
                 anim.SetInteger("State", 0);
                 distance = 0;

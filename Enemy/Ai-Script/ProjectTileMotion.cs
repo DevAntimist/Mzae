@@ -34,4 +34,17 @@ public class ProjectTileMotion : MonoBehaviour {
             body2D.velocity = new Vector2(speed, 0);
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+    
+            Destroy(gameObject);
+            GameObject GO = collision.gameObject;
+            GO.GetComponent<HealthScript>().SubtractHeath(1);
+
+
+        }
+    }
 }
