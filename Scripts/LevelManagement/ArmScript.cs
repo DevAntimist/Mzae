@@ -26,5 +26,13 @@ public class ArmScript : MonoBehaviour {
             GetComponentInParent<FireProjectile>().CreateProjectile(new Vector2(transform.position.x - 0.5f, transform.position.y ));
 
     }
+    public void FireWave(int number)
+    {
+        if (GetComponentInParent<InputState>().direction == Directions.Right)
+            GetComponentInParent<WaveAttack>().CreateProjectile(new Vector2(transform.position.x + 0.5f + (number * 1.5f), transform.position.y - 0.8f));
+        else
+            GetComponentInParent<WaveAttack>().CreateProjectile(new Vector2(transform.position.x - 0.5f - (number * 1.5f), transform.position.y - 0.8f));
+
+    }
 }
  
