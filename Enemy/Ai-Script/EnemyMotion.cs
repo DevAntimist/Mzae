@@ -69,20 +69,7 @@ public class EnemyMotion : MonoBehaviour {
         
     }
 
-    public void CreateDroneProjectile()
-    {
-        Vector2 FUCKME = new Vector2(transform.position.x + 0.7f, transform.position.y + 0.4f);
-        if (left)
-            FUCKME = new Vector2(transform.position.x - 0.7f, transform.position.y + 0.4f);
-        var clone = Instantiate(projectile, FUCKME, Quaternion.identity) as GameObject;
-        clone.transform.localScale = transform.localScale;
-
-        //determine if the projectile must go in the opposite direction
-        if (left)
-        {
-            clone.GetComponent<ProjectTileMotion>().left = left;
-        }   
-    }
+ 
 
     public void CreateProjectile()
     {
@@ -107,6 +94,7 @@ public class EnemyMotion : MonoBehaviour {
             var yDistance = this.transform.localPosition.y - playerLoc.localPosition.y;
             if(yDistance < -2 || yDistance > 2)
             {
+                
                 anim.SetInteger("State", 0);
                 distance = 0;
             }

@@ -9,7 +9,6 @@ public class EnemySpawn : MonoBehaviour {
     public GameObject[] Enemy;
     public bool Triggered = false;
     private int willSpawn;
-    public bool DroneProjectile; 
     public void Start()
     {
         DetermineSpawn(transform.position.x,transform.position.y,3);
@@ -22,10 +21,7 @@ public class EnemySpawn : MonoBehaviour {
             if (willSpawn == 5)
             {
                 GameObject toInstantiate = Enemy[Random.Range(0, Enemy.Length)];
-                if (toInstantiate == Enemy[1])
-                {
-                    DroneProjectile = true;
-                }
+
                 GameObject instance = Instantiate(toInstantiate, new Vector3(posX, posY, 0f), Quaternion.identity) as GameObject;
 
             }
