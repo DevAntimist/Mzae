@@ -10,7 +10,8 @@ public class ProjectTileMotion : MonoBehaviour {
     private int Direction ;
 
     private float scale;
-    public bool left = false; 
+    public bool left = false;
+    public float Timer = 5f;
     
 	// Use this for initialization
 	void Start () {
@@ -21,7 +22,14 @@ public class ProjectTileMotion : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        
+        if (Timer > 0)
+        {
+            Timer -= Time.deltaTime;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
         if (left)
         {
 
