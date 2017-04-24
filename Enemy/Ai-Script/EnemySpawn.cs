@@ -47,7 +47,7 @@ public class EnemySpawn : MonoBehaviour {
                 toInstantiate = Enemy[Random.Range(0, Enemy.Length)];
                 GameObject instance3= Instantiate(toInstantiate, new Vector3(posX + 4, posY, 0f), Quaternion.identity) as GameObject;
 
-            }
+            }//hello
         }
     }
     }
