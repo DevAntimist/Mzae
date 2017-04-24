@@ -12,6 +12,7 @@ public class EnemyMotion : MonoBehaviour {
     public float distanceNeededForAim = 5;
     public bool left = false;
         private Animator anim;
+    
     private float scale;
 
     // Use this for initialization
@@ -25,6 +26,7 @@ public class EnemyMotion : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        
         if (left)
         {
             body2D.velocity = new Vector2(-speed, body2D.velocity.y);
@@ -84,10 +86,18 @@ public class EnemyMotion : MonoBehaviour {
         if (anim.GetInteger("State") != 3)
         {
             var distance = this.transform.localPosition.x - playerLoc.localPosition.x;
+            var yDistance = this.transform.localPosition.y - playerLoc.localPosition.y;
+            if(yDistance < 0)
+            {
+                anim.SetInteger("State", 0);
+                distance = 0;
+            }
             if (distance > 0)
             {
+                
                 if (distance < distanceNeededForAim)
                 {
+                    left = true;
                     speed = 0;
                     anim.SetInteger("State", 1);
                     Debug.Log("Target detected");
@@ -101,6 +111,7 @@ public class EnemyMotion : MonoBehaviour {
             }
             else if (distance < 0)
             {
+                left = false; 
                 if (-distance < distanceNeededForAim)
                 {
                     speed = 0;
@@ -133,6 +144,11 @@ public class EnemyMotion : MonoBehaviour {
     {
         anim.SetInteger("State", state);
 
+    }
+
+    public void ByeBye()
+    {
+        Destroy(gameObject);
     }
     
 }
