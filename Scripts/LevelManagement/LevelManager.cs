@@ -19,6 +19,7 @@ public class LevelManager : MonoBehaviour
     {
         Score = MW.getDistance();
         score.text = "Score: " + (int)Score;
+        //Add comment
 	}
    
 }
