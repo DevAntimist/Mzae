@@ -1,0 +1,434 @@
+fileFormatVersion: 2
+guid: e931dbdcf80e7ef46adee20490e6d8e2
+timeCreated: 1492849688
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Mzae_0
+    21300002: Mzae_1
+    21300004: Mzae_2
+    21300006: Mzae_3
+    21300008: Mzae_4
+    21300010: Mzae_5
+    21300012: Mzae_6
+    21300014: Mzae_7
+    21300016: Mzae_8
+    21300018: Mzae_9
+    21300020: Mzae_10
+    21300022: Mzae_11
+    21300024: Mzae_12
+    21300026: Mzae_13
+    21300028: Mzae_14
+    21300030: Mzae_15
+    21300032: Mzae_16
+    21300034: Mzae_17
+    21300036: Mzae_18
+    21300038: Mzae_19
+    21300040: Mzae_20
+    21300042: Mzae_21
+    21300044: Mzae_22
+    21300046: Mzae_23
+    21300048: Mzae_24
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mzae_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 255
+        width: 50
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 263
+        width: 98
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 178
+        width: 90
+        height: 61
+      alignment: 9
+      pivot: {x: 0.18662685, y: 0.38877317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_3
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 175
+        width: 84
+        height: 64
+      alignment: 9
+      pivot: {x: 0.10809762, y: 0.42315412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 179
+        width: 74
+        height: 61
+      alignment: 9
+      pivot: {x: 0.04549016, y: 0.37906235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_5
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 170
+        width: 72
+        height: 68
+      alignment: 9
+      pivot: {x: 0.0637135, y: 0.46967003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_6
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 181
+        width: 73
+        height: 53
+      alignment: 9
+      pivot: {x: 0.0892497, y: 0.3922381}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_7
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 180
+        width: 68
+        height: 54
+      alignment: 9
+      pivot: {x: 0.06604632, y: 0.4059855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_8
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 174
+        width: 69
+        height: 56
+      alignment: 9
+      pivot: {x: 0.13786516, y: 0.4957507}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_9
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 175
+        width: 61
+        height: 62
+      alignment: 9
+      pivot: {x: 0.13978752, y: 0.4360285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_10
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 168
+        width: 47
+        height: 56
+      alignment: 9
+      pivot: {x: 0.08987362, y: 0.60907173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_11
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 171
+        width: 45
+        height: 46
+      alignment: 9
+      pivot: {x: 0.056591798, y: 0.6691304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_12
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 167
+        width: 48
+        height: 45
+      alignment: 9
+      pivot: {x: 0.08811951, y: 0.782724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_13
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 174
+        width: 62
+        height: 37
+      alignment: 9
+      pivot: {x: 0.05416378, y: 0.69790155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_14
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 178
+        width: 67
+        height: 35
+      alignment: 9
+      pivot: {x: 0.03688892, y: 0.61768055}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_15
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 130
+        width: 17
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5260925, y: 0.61089325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_16
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 128
+        width: 33
+        height: 16
+      alignment: 9
+      pivot: {x: 0.58737046, y: 0.48613834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_17
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 130
+        width: 46
+        height: 17
+      alignment: 9
+      pivot: {x: 0.58437544, y: 0.43476957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_18
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 124
+        width: 75
+        height: 23
+      alignment: 9
+      pivot: {x: 0.61680746, y: 0.53857154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_19
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 125
+        width: 81
+        height: 23
+      alignment: 9
+      pivot: {x: 0.6273216, y: 0.50000066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_20
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 127
+        width: 72
+        height: 21
+      alignment: 9
+      pivot: {x: 0.6062724, y: 0.45247468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_21
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 122
+        width: 48
+        height: 31
+      alignment: 9
+      pivot: {x: 0.788784, y: 0.5035775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_22
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 117
+        width: 43
+        height: 43
+      alignment: 9
+      pivot: {x: 0.6521564, y: 0.5077369}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_23
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 110
+        width: 41
+        height: 56
+      alignment: 9
+      pivot: {x: 0.86513615, y: 0.53762466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mzae_24
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 108
+        width: 52
+        height: 58
+      alignment: 9
+      pivot: {x: 0.6551842, y: 0.5593412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
