@@ -8,6 +8,7 @@ public class LevelManager : MonoBehaviour
     private float Score;
     private MoveWorld MW;
     public Text score;
+    public bool gameOver;
 	// Use this for initialization
 	void Start ()
     {
@@ -20,6 +21,12 @@ public class LevelManager : MonoBehaviour
         Score = MW.getDistance();
         score.text = "Score: " + (int)Score;
         //Add comment
+
 	}
+    void GameOver()
+    {
+
+    }
+    
    
 }
