@@ -77,7 +77,7 @@ public class EnemyMotion : MonoBehaviour {
         //determine if the projectile must go in the opposite direction
         if (left)
         {
-            this.GetComponent<ProjectTileMotion>().left = left; 
+            GetComponent<ProjectTileMotion>().left = left; 
         }
     }
         
@@ -132,6 +132,7 @@ public class EnemyMotion : MonoBehaviour {
     {
         if(Left == true)
         {
+            
             left = true;
         }
         else
