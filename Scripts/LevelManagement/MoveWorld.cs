@@ -12,6 +12,7 @@ public class MoveWorld : AbstractBehaviour
     public GameObject[] Spawners;
     private int secondaryPlatforms = 0;
     private int sleepCounter = 0;
+    private float MoveBackground = 450;
 
 	// Use this for initialization
 	void Start ()
@@ -39,6 +40,12 @@ public class MoveWorld : AbstractBehaviour
             {
                 Objs[i].transform.position = new Vector3(Position[i] + transform.position.x, Objs[i].transform.position.y, Objs[i].transform.position.z);
             }
+        }
+        if(furtherestPosition > MoveBackground)
+        {
+           // Debug.Log("Crap");
+            MoveBackground += 450;
+            GameObject.FindGameObjectWithTag("Terrain").GetComponent<ScrollScript>().onCall();
         }
         if(transform.position.x > nextGeneration[0])
         {
