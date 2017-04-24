@@ -72,7 +72,7 @@ public class EnemyMotion : MonoBehaviour {
     {
         Vector2 FUCKME = new Vector2(transform.position.x + 0.7f, transform.position.y + 0.4f);
         if (left)
-            FUCKME = new Vector2(transform.position.x - 0, transform.position.y + 0);
+            FUCKME = new Vector2(transform.position.x - 0.7f, transform.position.y + 0.4f);
         var clone = Instantiate(projectile, FUCKME, Quaternion.identity) as GameObject;
         clone.transform.localScale = transform.localScale;
 
